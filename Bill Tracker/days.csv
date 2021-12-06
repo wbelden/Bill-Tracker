@@ -1,0 +1,51 @@
+[
+    {
+        "id" : 20211003,
+        "dateYear" : 2021,
+        "dateMonth" : 10,
+        "dateDay" : 3,
+        "dayOfWeek" : "Sunday"
+    },
+    {
+        "id" : 20211004,
+        "dateYear" : 2021,
+        "dateMonth" : 10,
+        "dateDay" : 4,
+        "dayOfWeek" : "Monday"
+    },
+    {
+        "id" : 20211005,
+        "dateYear" : 2021,
+        "dateMonth" : 10,
+        "dateDay" : 5,
+        "dayOfWeek" : "Tuesday"
+    },
+    {
+        "id" : 20211006,
+        "dateYear" : 2021,
+        "dateMonth" : 10,
+        "dateDay" : 6,
+        "dayOfWeek" : "Wednesday"
+    },
+    {
+        "id" : 20211007,
+        "dateYear" : 2021,
+        "dateMonth" : 10,
+        "dateDay" : 7,
+        "dayOfWeek" : "Thursday"
+    },
+    {
+        "id" : 20211008,
+        "dateYear" : 2021,
+        "dateMonth" : 10,
+        "dateDay" : 8,
+        "dayOfWeek" : "Friday"
+    },
+    {
+        "id" : 20211009,
+        "dateYear" : 2021,
+        "dateMonth" : 10,
+        "dateDay" : 9,
+        "dayOfWeek" : "Saturday"
+    }
+]

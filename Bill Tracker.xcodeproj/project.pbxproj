@@ -1,0 +1,653 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		185699A9271C9C5500A9747C /* Incomes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 185699A8271C9C5500A9747C /* Incomes.swift */; };
+		185D2BEA27091EA5002C975C /* Bill.swift in Sources */ = {isa = PBXBuildFile; fileRef = 185D2BE927091EA5002C975C /* Bill.swift */; };
+		185D2BEC270A31D6002C975C /* DayOfWeek.swift in Sources */ = {isa = PBXBuildFile; fileRef = 185D2BEB270A31D6002C975C /* DayOfWeek.swift */; };
+		185D2BEE270A5791002C975C /* Bank.swift in Sources */ = {isa = PBXBuildFile; fileRef = 185D2BED270A5791002C975C /* Bank.swift */; };
+		185D2BF0270A592D002C975C /* Income.swift in Sources */ = {isa = PBXBuildFile; fileRef = 185D2BEF270A592D002C975C /* Income.swift */; };
+		185D2BF2270A60B0002C975C /* Bills.swift in Sources */ = {isa = PBXBuildFile; fileRef = 185D2BF1270A60B0002C975C /* Bills.swift */; };
+		187486B427518D4500243C22 /* dates.csv in Resources */ = {isa = PBXBuildFile; fileRef = 187486B327518D4500243C22 /* dates.csv */; };
+		187D32112756E56100081BED /* ViewBanks.swift in Sources */ = {isa = PBXBuildFile; fileRef = 187D32102756E56100081BED /* ViewBanks.swift */; };
+		187D32132756EBFF00081BED /* ViewBills.swift in Sources */ = {isa = PBXBuildFile; fileRef = 187D32122756EBFF00081BED /* ViewBills.swift */; };
+		187D32152756EE6400081BED /* ViewIncomes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 187D32142756EE6400081BED /* ViewIncomes.swift */; };
+		189E19FF2745E299002AC077 /* Days.swift in Sources */ = {isa = PBXBuildFile; fileRef = 189E19FE2745E299002AC077 /* Days.swift */; };
+		18BAAB4A27542A930019A648 /* NewBill.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18BAAB4927542A930019A648 /* NewBill.swift */; };
+		18BAAB4C27542AB40019A648 /* NewIncome.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18BAAB4B27542AB40019A648 /* NewIncome.swift */; };
+		18BAAB4E27542AC10019A648 /* NewBank.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18BAAB4D27542AC10019A648 /* NewBank.swift */; };
+		18BAAB5027542AD60019A648 /* ViewDay.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18BAAB4F27542AD60019A648 /* ViewDay.swift */; };
+		18CD98AB271CA32300A9B448 /* banks.json in Resources */ = {isa = PBXBuildFile; fileRef = 18CD98AA271CA32300A9B448 /* banks.json */; };
+		18CD98AD271CA3B000A9B448 /* Banks.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18CD98AC271CA3B000A9B448 /* Banks.swift */; };
+		18CF43C326E6F21E0009D41F /* Bill_TrackerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18CF43C226E6F21E0009D41F /* Bill_TrackerApp.swift */; };
+		18CF43C526E6F21E0009D41F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18CF43C426E6F21E0009D41F /* ContentView.swift */; };
+		18CF43C726E6F2200009D41F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18CF43C626E6F2200009D41F /* Assets.xcassets */; };
+		18CF43CA26E6F2200009D41F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18CF43C926E6F2200009D41F /* Preview Assets.xcassets */; };
+		18CF43D526E6F2200009D41F /* Bill_TrackerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18CF43D426E6F2200009D41F /* Bill_TrackerTests.swift */; };
+		18CF43E026E6F2200009D41F /* Bill_TrackerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18CF43DF26E6F2200009D41F /* Bill_TrackerUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		18CF43D126E6F2200009D41F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 18CF43B726E6F21E0009D41F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 18CF43BE26E6F21E0009D41F;
+			remoteInfo = "Bill Tracker";
+		};
+		18CF43DC26E6F2200009D41F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 18CF43B726E6F21E0009D41F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 18CF43BE26E6F21E0009D41F;
+			remoteInfo = "Bill Tracker";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		185699A8271C9C5500A9747C /* Incomes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Incomes.swift; sourceTree = "<group>"; };
+		185D2BE927091EA5002C975C /* Bill.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Bill.swift; sourceTree = "<group>"; };
+		185D2BEB270A31D6002C975C /* DayOfWeek.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DayOfWeek.swift; sourceTree = "<group>"; };
+		185D2BED270A5791002C975C /* Bank.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Bank.swift; sourceTree = "<group>"; };
+		185D2BEF270A592D002C975C /* Income.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Income.swift; sourceTree = "<group>"; };
+		185D2BF1270A60B0002C975C /* Bills.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Bills.swift; sourceTree = "<group>"; };
+		187486B327518D4500243C22 /* dates.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = dates.csv; sourceTree = "<group>"; };
+		187D32102756E56100081BED /* ViewBanks.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewBanks.swift; sourceTree = "<group>"; };
+		187D32122756EBFF00081BED /* ViewBills.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewBills.swift; sourceTree = "<group>"; };
+		187D32142756EE6400081BED /* ViewIncomes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewIncomes.swift; sourceTree = "<group>"; };
+		189E19FE2745E299002AC077 /* Days.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Days.swift; sourceTree = "<group>"; };
+		18BAAB4927542A930019A648 /* NewBill.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewBill.swift; sourceTree = "<group>"; };
+		18BAAB4B27542AB40019A648 /* NewIncome.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewIncome.swift; sourceTree = "<group>"; };
+		18BAAB4D27542AC10019A648 /* NewBank.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewBank.swift; sourceTree = "<group>"; };
+		18BAAB4F27542AD60019A648 /* ViewDay.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewDay.swift; sourceTree = "<group>"; };
+		18CD98AA271CA32300A9B448 /* banks.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = banks.json; sourceTree = "<group>"; };
+		18CD98AC271CA3B000A9B448 /* Banks.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Banks.swift; sourceTree = "<group>"; };
+		18CF43BF26E6F21E0009D41F /* Bill Tracker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Bill Tracker.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		18CF43C226E6F21E0009D41F /* Bill_TrackerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Bill_TrackerApp.swift; sourceTree = "<group>"; };
+		18CF43C426E6F21E0009D41F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		18CF43C626E6F2200009D41F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		18CF43C926E6F2200009D41F /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		18CF43CB26E6F2200009D41F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		18CF43D026E6F2200009D41F /* Bill TrackerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Bill TrackerTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		18CF43D426E6F2200009D41F /* Bill_TrackerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Bill_TrackerTests.swift; sourceTree = "<group>"; };
+		18CF43D626E6F2200009D41F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		18CF43DB26E6F2200009D41F /* Bill TrackerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Bill TrackerUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		18CF43DF26E6F2200009D41F /* Bill_TrackerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Bill_TrackerUITests.swift; sourceTree = "<group>"; };
+		18CF43E126E6F2200009D41F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		18CF43BC26E6F21E0009D41F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18CF43CD26E6F2200009D41F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18CF43D826E6F2200009D41F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		18CF43B626E6F21E0009D41F = {
+			isa = PBXGroup;
+			children = (
+				18CF43C126E6F21E0009D41F /* Bill Tracker */,
+				18CF43D326E6F2200009D41F /* Bill TrackerTests */,
+				18CF43DE26E6F2200009D41F /* Bill TrackerUITests */,
+				18CF43C026E6F21E0009D41F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		18CF43C026E6F21E0009D41F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				18CF43BF26E6F21E0009D41F /* Bill Tracker.app */,
+				18CF43D026E6F2200009D41F /* Bill TrackerTests.xctest */,
+				18CF43DB26E6F2200009D41F /* Bill TrackerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		18CF43C126E6F21E0009D41F /* Bill Tracker */ = {
+			isa = PBXGroup;
+			children = (
+				18CF43C226E6F21E0009D41F /* Bill_TrackerApp.swift */,
+				18CF43C426E6F21E0009D41F /* ContentView.swift */,
+				185D2BE927091EA5002C975C /* Bill.swift */,
+				185D2BF1270A60B0002C975C /* Bills.swift */,
+				185D2BEF270A592D002C975C /* Income.swift */,
+				185699A8271C9C5500A9747C /* Incomes.swift */,
+				189E19FE2745E299002AC077 /* Days.swift */,
+				185D2BEB270A31D6002C975C /* DayOfWeek.swift */,
+				187486B327518D4500243C22 /* dates.csv */,
+				185D2BED270A5791002C975C /* Bank.swift */,
+				18CD98AC271CA3B000A9B448 /* Banks.swift */,
+				18CD98AA271CA32300A9B448 /* banks.json */,
+				18CF43C626E6F2200009D41F /* Assets.xcassets */,
+				18CF43CB26E6F2200009D41F /* Info.plist */,
+				18CF43C826E6F2200009D41F /* Preview Content */,
+				18BAAB4927542A930019A648 /* NewBill.swift */,
+				18BAAB4B27542AB40019A648 /* NewIncome.swift */,
+				18BAAB4D27542AC10019A648 /* NewBank.swift */,
+				18BAAB4F27542AD60019A648 /* ViewDay.swift */,
+				187D32102756E56100081BED /* ViewBanks.swift */,
+				187D32122756EBFF00081BED /* ViewBills.swift */,
+				187D32142756EE6400081BED /* ViewIncomes.swift */,
+			);
+			path = "Bill Tracker";
+			sourceTree = "<group>";
+		};
+		18CF43C826E6F2200009D41F /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				18CF43C926E6F2200009D41F /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		18CF43D326E6F2200009D41F /* Bill TrackerTests */ = {
+			isa = PBXGroup;
+			children = (
+				18CF43D426E6F2200009D41F /* Bill_TrackerTests.swift */,
+				18CF43D626E6F2200009D41F /* Info.plist */,
+			);
+			path = "Bill TrackerTests";
+			sourceTree = "<group>";
+		};
+		18CF43DE26E6F2200009D41F /* Bill TrackerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				18CF43DF26E6F2200009D41F /* Bill_TrackerUITests.swift */,
+				18CF43E126E6F2200009D41F /* Info.plist */,
+			);
+			path = "Bill TrackerUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		18CF43BE26E6F21E0009D41F /* Bill Tracker */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 18CF43E426E6F2200009D41F /* Build configuration list for PBXNativeTarget "Bill Tracker" */;
+			buildPhases = (
+				18CF43BB26E6F21E0009D41F /* Sources */,
+				18CF43BC26E6F21E0009D41F /* Frameworks */,
+				18CF43BD26E6F21E0009D41F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Bill Tracker";
+			productName = "Bill Tracker";
+			productReference = 18CF43BF26E6F21E0009D41F /* Bill Tracker.app */;
+			productType = "com.apple.product-type.application";
+		};
+		18CF43CF26E6F2200009D41F /* Bill TrackerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 18CF43E726E6F2200009D41F /* Build configuration list for PBXNativeTarget "Bill TrackerTests" */;
+			buildPhases = (
+				18CF43CC26E6F2200009D41F /* Sources */,
+				18CF43CD26E6F2200009D41F /* Frameworks */,
+				18CF43CE26E6F2200009D41F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				18CF43D226E6F2200009D41F /* PBXTargetDependency */,
+			);
+			name = "Bill TrackerTests";
+			productName = "Bill TrackerTests";
+			productReference = 18CF43D026E6F2200009D41F /* Bill TrackerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		18CF43DA26E6F2200009D41F /* Bill TrackerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 18CF43EA26E6F2200009D41F /* Build configuration list for PBXNativeTarget "Bill TrackerUITests" */;
+			buildPhases = (
+				18CF43D726E6F2200009D41F /* Sources */,
+				18CF43D826E6F2200009D41F /* Frameworks */,
+				18CF43D926E6F2200009D41F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				18CF43DD26E6F2200009D41F /* PBXTargetDependency */,
+			);
+			name = "Bill TrackerUITests";
+			productName = "Bill TrackerUITests";
+			productReference = 18CF43DB26E6F2200009D41F /* Bill TrackerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		18CF43B726E6F21E0009D41F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1250;
+				LastUpgradeCheck = 1250;
+				TargetAttributes = {
+					18CF43BE26E6F21E0009D41F = {
+						CreatedOnToolsVersion = 12.5.1;
+					};
+					18CF43CF26E6F2200009D41F = {
+						CreatedOnToolsVersion = 12.5.1;
+						TestTargetID = 18CF43BE26E6F21E0009D41F;
+					};
+					18CF43DA26E6F2200009D41F = {
+						CreatedOnToolsVersion = 12.5.1;
+						TestTargetID = 18CF43BE26E6F21E0009D41F;
+					};
+				};
+			};
+			buildConfigurationList = 18CF43BA26E6F21E0009D41F /* Build configuration list for PBXProject "Bill Tracker" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 18CF43B626E6F21E0009D41F;
+			productRefGroup = 18CF43C026E6F21E0009D41F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				18CF43BE26E6F21E0009D41F /* Bill Tracker */,
+				18CF43CF26E6F2200009D41F /* Bill TrackerTests */,
+				18CF43DA26E6F2200009D41F /* Bill TrackerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		18CF43BD26E6F21E0009D41F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				187486B427518D4500243C22 /* dates.csv in Resources */,
+				18CF43CA26E6F2200009D41F /* Preview Assets.xcassets in Resources */,
+				18CF43C726E6F2200009D41F /* Assets.xcassets in Resources */,
+				18CD98AB271CA32300A9B448 /* banks.json in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18CF43CE26E6F2200009D41F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18CF43D926E6F2200009D41F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		18CF43BB26E6F21E0009D41F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				187D32112756E56100081BED /* ViewBanks.swift in Sources */,
+				18BAAB5027542AD60019A648 /* ViewDay.swift in Sources */,
+				18BAAB4C27542AB40019A648 /* NewIncome.swift in Sources */,
+				18CF43C526E6F21E0009D41F /* ContentView.swift in Sources */,
+				18BAAB4A27542A930019A648 /* NewBill.swift in Sources */,
+				185D2BEC270A31D6002C975C /* DayOfWeek.swift in Sources */,
+				187D32132756EBFF00081BED /* ViewBills.swift in Sources */,
+				185D2BF2270A60B0002C975C /* Bills.swift in Sources */,
+				185699A9271C9C5500A9747C /* Incomes.swift in Sources */,
+				185D2BEE270A5791002C975C /* Bank.swift in Sources */,
+				185D2BEA27091EA5002C975C /* Bill.swift in Sources */,
+				18CD98AD271CA3B000A9B448 /* Banks.swift in Sources */,
+				18BAAB4E27542AC10019A648 /* NewBank.swift in Sources */,
+				185D2BF0270A592D002C975C /* Income.swift in Sources */,
+				189E19FF2745E299002AC077 /* Days.swift in Sources */,
+				187D32152756EE6400081BED /* ViewIncomes.swift in Sources */,
+				18CF43C326E6F21E0009D41F /* Bill_TrackerApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18CF43CC26E6F2200009D41F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18CF43D526E6F2200009D41F /* Bill_TrackerTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18CF43D726E6F2200009D41F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18CF43E026E6F2200009D41F /* Bill_TrackerUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		18CF43D226E6F2200009D41F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 18CF43BE26E6F21E0009D41F /* Bill Tracker */;
+			targetProxy = 18CF43D126E6F2200009D41F /* PBXContainerItemProxy */;
+		};
+		18CF43DD26E6F2200009D41F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 18CF43BE26E6F21E0009D41F /* Bill Tracker */;
+			targetProxy = 18CF43DC26E6F2200009D41F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		18CF43E226E6F2200009D41F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		18CF43E326E6F2200009D41F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		18CF43E526E6F2200009D41F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"Bill Tracker/Preview Content\"";
+				DEVELOPMENT_TEAM = 3X8B9U2FPU;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "Bill Tracker/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "WadeBelden.Bill-Tracker";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		18CF43E626E6F2200009D41F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"Bill Tracker/Preview Content\"";
+				DEVELOPMENT_TEAM = 3X8B9U2FPU;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "Bill Tracker/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "WadeBelden.Bill-Tracker";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		18CF43E826E6F2200009D41F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3X8B9U2FPU;
+				INFOPLIST_FILE = "Bill TrackerTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "WadeBelden.Bill-TrackerTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Bill Tracker.app/Bill Tracker";
+			};
+			name = Debug;
+		};
+		18CF43E926E6F2200009D41F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3X8B9U2FPU;
+				INFOPLIST_FILE = "Bill TrackerTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "WadeBelden.Bill-TrackerTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Bill Tracker.app/Bill Tracker";
+			};
+			name = Release;
+		};
+		18CF43EB26E6F2200009D41F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3X8B9U2FPU;
+				INFOPLIST_FILE = "Bill TrackerUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "WadeBelden.Bill-TrackerUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Bill Tracker";
+			};
+			name = Debug;
+		};
+		18CF43EC26E6F2200009D41F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3X8B9U2FPU;
+				INFOPLIST_FILE = "Bill TrackerUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "WadeBelden.Bill-TrackerUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Bill Tracker";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		18CF43BA26E6F21E0009D41F /* Build configuration list for PBXProject "Bill Tracker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18CF43E226E6F2200009D41F /* Debug */,
+				18CF43E326E6F2200009D41F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		18CF43E426E6F2200009D41F /* Build configuration list for PBXNativeTarget "Bill Tracker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18CF43E526E6F2200009D41F /* Debug */,
+				18CF43E626E6F2200009D41F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		18CF43E726E6F2200009D41F /* Build configuration list for PBXNativeTarget "Bill TrackerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18CF43E826E6F2200009D41F /* Debug */,
+				18CF43E926E6F2200009D41F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		18CF43EA26E6F2200009D41F /* Build configuration list for PBXNativeTarget "Bill TrackerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18CF43EB26E6F2200009D41F /* Debug */,
+				18CF43EC26E6F2200009D41F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 18CF43B726E6F21E0009D41F /* Project object */;
+}
